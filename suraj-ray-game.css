@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Message in h1 centering the message */
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: red;
+}
+
+/* Main tag positioning in the centre and giving height and width */
+main {
+    height: 170px;
+    width: 170px;
+    padding: 0 2px 4px 4px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* setting height, width and colors for buttons */
+
+button {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #fff;
+    border: 2px solid black;
+    margin-top: 4px;
+    font-size: 25px;
+}
+
+button:hover {
+    border: 2px solid orangered
+}
+
+
+/* class to color the buttons with O applied via JavaScript  */
+.o-class {
+    color: black;
+    background-color: rgb(242, 255, 0);
+}
+
+/* class to color the buttons with X applied via JavaScript  */
+.x-class {
+    background-color: rgb(255, 0, 234);
+}
