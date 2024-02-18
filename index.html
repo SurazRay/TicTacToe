@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suraj Ray Game</title>
+    <title>Suraj Ray's Tic Tac Toe Game</title>
 
     <link rel="stylesheet" href="suraj-ray-game.css">
     <script defer src="surajRayGame.js"></script>
 </head>
 
 <body>
-    <marquee behavior="" direction="right">
-        <h1>Touch the white buttons to play your turn</h1>
-    </marquee>
+    <div class="msg">
+        <h1></h1>
+        <button class="play">New Game</button>
+    </div>
     <main>
-        <button class="btn" id="btn1">1</button>
-        <button class="btn" id="btn2">2</button>
-        <button class="btn" id="btn3">3</button>
-        <button class="btn" id="btn4">4</button>
-        <button class="btn" id="btn5">5</button>
-        <button class="btn" id="btn6">6</button>
-        <button class="btn" id="btn7">7</button>
-        <button class="btn" id="btn8">8</button>
-        <button class="btn" id="btn9">9</button>
+        <div>
+            <button class="btn" id="btn1"></button>
+            <button class="btn" id="btn2"></button>
+            <button class="btn" id="btn3"></button>
+            <button class="btn" id="btn4"></button>
+            <button class="btn" id="btn5"></button>
+            <button class="btn" id="btn6"></button>
+            <button class="btn" id="btn7"></button>
+            <button class="btn" id="btn8"></button>
+            <button class="btn" id="btn9"></button>
+        </div>
     </main>
+    <button class="reset">Reset Game</button>
 </body>
 
 </html>
