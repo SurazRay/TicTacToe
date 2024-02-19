@@ -134,7 +134,7 @@ main,
     background-color: rgb(60, 249, 60);
 }
 
-@media screen and (resolution : portrait) {
+@media screen and (orientation : portrait) {
     body {
         max-height: 100dvh;
     }
